@@ -1,0 +1,15 @@
+{
+  users [
+    { id 1, name John Doe, email john@example.com, status Active },
+    { id 2, name Jane Smith, email jane@example.com, status Inactive }
+  ],
+  roles [
+    { id 1, name Admin },
+    { id 2, name Editor }
+  ],
+  permissions [
+    { id 1, name Read },
+    { id 2, name Write },
+    { id 3, name Delete }
+  ]
+}
